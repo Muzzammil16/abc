@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:onClick="Save"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:onClick="clear"/>
+
+    <Button
+        android:id="@+id/btnRetr"
+        android:layout_width="303dp"
+        android:onClick="Get"
+        android:text="Retrieve"
+        android:layout_height="wrap_content" />
+</LinearLayout>
